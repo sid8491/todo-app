@@ -85,12 +85,8 @@ WSGI_APPLICATION = 'todo_drf.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'da6hfcgjn617s7',
-        'HOST': 'ec2-54-161-150-170.compute-1.amazonaws.com',
-        'PORT': 5432,
-        'USER': 'kwmqialroilcve',
-        'PASSWORD': '321d13ce79085ce3f1cf1855c6d2dc7ae1a2c301418748d6f6b2567244817b95'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
